@@ -1,3 +1,53 @@
+
+# GRADING CHECKLIST
+# 1. Initial Show system
+# Menu working			    ____
+# Shows system properly	    ____
+#
+# 2. Menu framework
+# Prompts correct 		    ____
+# Invalid input working 	____
+#
+# 3. Add Car
+# Able to add short car to one end		    ____
+# Car at station shows 					    ____
+# Car str overridden						____
+#
+# 4. One Short Car Update (one way)
+# Car time starts and decreases properly					____
+# Car can move to next stretch at the right time			____
+# Car displays and moves forward correctly on stretch		____
+# Car enters next station at correct time and location	    ____
+# Next station handles time and release properly			____
+# Car reaches the end station properly					    ____
+# Display is correct and done with iterator**				____
+#
+# 5. One Long Car Update  (one way)
+# Repeat of prior tier with long car ignoring iterator 	    ____
+# Strategy pattern used properly**						    ____
+#
+# 6. Set people and Adapting (one way)
+# Updates station on/off count properly					    ____
+# Updates short/long car people count properly			    ____
+# Update adapting car properly with strategy**			    ____
+#
+# 7. Multi short/long car (one way) and station details
+# Waiting list works properly at start					    ____
+# Waiting list works properly at later stations			    ____
+# Show station details working properly**					____
+# Later added cars work									    ____
+#
+# 8. One short car, round trip
+# Able to return to cable at end							____
+# Returns at correct speed to start 						____
+# Multiple cycles permitted								    ____
+#
+# 9. Stress test
+# multiple, varied cars									    ____
+#
+#
+# Grading tags completes :  _________
+
 import sys
 
 
