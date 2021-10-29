@@ -1,3 +1,6 @@
+import sys
+
+
 def main():
 
     time = 0
@@ -17,6 +20,22 @@ def main():
         # strips out blank lines in input
         while choice == '':
             choice = input()
+
+        if choice == '1':
+            print('not implemented') # Show Gondola System
+        elif choice == '2':
+            print('not implemented') # Add Car
+        elif choice == '3':
+            print('not implemented') # Update With Debug Info
+        elif choice == '4':
+            print('not implemented') # Set Station People
+        elif choice == '5':
+            print('not implemented') # Show Station Details
+        elif choice == '0':
+            sys.exit() # Quit
+        else:
+            print('Invalid menu option')
+
 
 if __name__ == '__main__':
     main( )
