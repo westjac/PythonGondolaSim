@@ -1,4 +1,4 @@
-from renameToID import MainStarter
+from west_jacob import MainStarter
 from ColorText import ColorText
 
 import io

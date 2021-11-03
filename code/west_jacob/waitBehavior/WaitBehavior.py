@@ -1,4 +1,4 @@
 
 class WaitBehavior:
-    def getWait(self):
+    def GetWait(self):
         raise NotImplementedError()
