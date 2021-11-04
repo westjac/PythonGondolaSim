@@ -20,7 +20,7 @@ class Station(Thing):
         #     string += left.format(str(self.leftCars[0].id), self.leftCars[0].timeToClose, str(self.leftCars[0].people), 0)
         if self.rightCar is not None:
             right = "Right: [ ID:{}   {}min {}/20 ]({})"
-            string += right.format(str(self.rightCar.id), self.rightCar.timeToClose, str(self.rightCar.people), 0)
+            string += right.format(str(self.rightCar.id), self.rightCar.timeToClose, str(self.rightCar.people), len(self.rightWaiting))
 
         return string
 
@@ -39,6 +39,12 @@ class Station(Thing):
                 self.rightCar.resetLocation()
                 self.next.addRightCar(self.rightCar)
                 self.rightCar = None
+                if len(self.rightWaiting) > 0:
+                    self.rightCar = self.rightWaiting.pop(0)
+                    self.rightCar.updatePeople(-self.gettingOff)
+                    self.rightCar.updatePeople(self.gettingOn)
+                    self.rightCar.Wait()
+
         elif self.leftCar is not None:
             timeLeft = self.leftCar.updateWait()
 
@@ -51,5 +57,6 @@ class Station(Thing):
             self.rightCar.updatePeople(self.gettingOn)
             self.rightCar.Wait()
         else:
+            car.resetLocation()
             self.rightWaiting.append(car)
         return

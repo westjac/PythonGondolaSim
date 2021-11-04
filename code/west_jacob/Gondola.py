@@ -100,7 +100,10 @@ class Gondola:
             print(station)
             print("    People getting on/off: {}/{}".format(station.gettingOn, station.gettingOff))
             print("    Delayed on...")
-            print("      Left Side: ")
+            leftSide = ""
+            for car in station.rightWaiting:
+                leftSide += "[ ID:{0:<4}{1} ] ".format(car.id, car.loc)
+            print("      Left Side: {}".format(leftSide))
             print("      Right Side: ")
             print("")
 
