@@ -76,7 +76,7 @@ def main():
         elif choice == '2':
             gondola.addCar()  # Add Car
         elif choice == '3':
-            print('not implemented')  # Update With Debug Info
+            gondola.update()  # Update With Debug Info
         elif choice == '4':
             gondola.setStationPeople()  # Set Station People
         elif choice == '5':

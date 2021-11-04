@@ -4,11 +4,9 @@ class Thing:
         self.name = ''
         self.next = nextThing
         self.prev = prevThing
-        self.leftCars = []
-        self.rightCars = []
 
-    def addCar(self, car):
-        self.rightCars.append(car)
+
+
 
     def setNext(self, nextThing):
         self.next = nextThing

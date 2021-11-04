@@ -1,6 +1,7 @@
 from west_jacob.Car import Car
 from west_jacob.iterator.IteratorAll import AllIter
 from west_jacob.iterator.IteratorStationOnly import StationIter
+from west_jacob.iterator.IteratorStretchOnly import StretchIter
 from west_jacob.things.Station import Station
 from west_jacob.things.Stretch import Stretch
 from west_jacob.waitBehavior.Behaviors import *
@@ -8,6 +9,7 @@ from west_jacob.waitBehavior.Behaviors import *
 
 class Gondola:
     carId = 1
+
     def __init__(self):
         self.time = 0
         start = Station("Start")
@@ -42,7 +44,10 @@ class Gondola:
         return AllIter(self.things)
 
     def getStationIterator(self):
-        return StationIter(self.start)  # TODO: implement stations only
+        return StationIter(self.things)
+
+    def getStretchIterator(self):
+        return StretchIter(self.things)
 
     def printSystem(self):
         iter = self.getIterator()
@@ -69,7 +74,7 @@ class Gondola:
             return
 
         newCar.Wait()
-        self.things[0].addCar(newCar)  # Add Car to Start
+        self.things[0].addCarRight(newCar)  # Add Car to Start
         Gondola.carId += 1
         return
 
@@ -84,3 +89,13 @@ class Gondola:
                 raise ValueError
         except ValueError:
             print("Invalid Input")
+
+    def update(self):
+        self.time += 0.5
+        for station in self.getStationIterator():
+            station.updateCars()
+
+        for stretch in self.getStretchIterator():
+            stretch.updateCars()
+
+        self.printSystem()

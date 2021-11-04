@@ -1,4 +1,4 @@
-class StationIter:
+class StretchIter:
     def __init__(self, things):
         self.things = things
 
@@ -10,7 +10,7 @@ class StationIter:
         try:
             # if thing is not a station, keep incrementing the index until it is
             self.index += 1
-            while self.things[self.index].__class__.__name__ != "Station":
+            while self.things[self.index].__class__.__name__ != "Stretch":
                 self.index += 1
             return self.things[self.index]
         except:

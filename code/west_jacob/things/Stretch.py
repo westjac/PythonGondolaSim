@@ -6,6 +6,25 @@ class Stretch(Thing):
         Thing.__init__(self)
         self.name = name
         self.length = 0.3
+        self.leftCars = []
+        self.rightCars = []
 
     def __str__(self):
-        return "    Traveling Left: \n    Traveling Right: "
+        status = "    Traveling Left: {}\n    Traveling Right: {}"
+        right = ""
+        left = ""
+        if len(self.rightCars) > 0:
+            for car in self.rightCars:
+                right += "[ ID:{}   {} ]".format(car.id, car.loc)
+
+        return status.format(left, right)
+
+    def addRightCar(self, car):
+        self.rightCars.append(car)
+
+    def updateCars(self):
+        for car in list(self.rightCars):
+            loc = car.updateLocation()
+            if loc >= 0.3:
+                self.next.addCarRight(car)
+                self.rightCars.remove(car)
