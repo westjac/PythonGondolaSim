@@ -42,8 +42,7 @@ Choice:> Invalid menu option
 5) Show Station Details
 0) Quit
 
-Choice:> Which type: 0-->Short, 1-->Long, 2-->Adapting:> Will add adapting
-
+Choice:> Which type: 0-->Short, 1-->Long, 2-->Adapting:> 
 1) Show Gondola System
 2) Add Car
 3) Update with Debug Info
@@ -69,8 +68,7 @@ Choice:> not implemented
 5) Show Station Details
 0) Quit
 
-Choice:> Which type: 0-->Short, 1-->Long, 2-->Adapting:> Will add short
-
+Choice:> Which type: 0-->Short, 1-->Long, 2-->Adapting:> 
 1) Show Gondola System
 2) Add Car
 3) Update with Debug Info
@@ -78,8 +76,7 @@ Choice:> Which type: 0-->Short, 1-->Long, 2-->Adapting:> Will add short
 5) Show Station Details
 0) Quit
 
-Choice:> Which type: 0-->Short, 1-->Long, 2-->Adapting:> Will add long
-
+Choice:> Which type: 0-->Short, 1-->Long, 2-->Adapting:> 
 1) Show Gondola System
 2) Add Car
 3) Update with Debug Info
@@ -87,17 +84,7 @@ Choice:> Which type: 0-->Short, 1-->Long, 2-->Adapting:> Will add long
 5) Show Station Details
 0) Quit
 
-Choice:> Which type: 0-->Short, 1-->Long, 2-->Adapting:> Will add adapting
-
-1) Show Gondola System
-2) Add Car
-3) Update with Debug Info
-4) Set Station People
-5) Show Station Details
-0) Quit
-
-Choice:> not implemented
-
+Choice:> Which type: 0-->Short, 1-->Long, 2-->Adapting:> 
 1) Show Gondola System
 2) Add Car
 3) Update with Debug Info
@@ -168,7 +155,7 @@ Choice:> not implemented
 5) Show Station Details
 0) Quit
 
-Choice:> Which type: 0-->Short, 1-->Long, 2-->Adapting:> Will add short
+Choice:> not implemented
 
 1) Show Gondola System
 2) Add Car
@@ -177,8 +164,7 @@ Choice:> Which type: 0-->Short, 1-->Long, 2-->Adapting:> Will add short
 5) Show Station Details
 0) Quit
 
-Choice:> Which type: 0-->Short, 1-->Long, 2-->Adapting:> Will add long
-
+Choice:> Which type: 0-->Short, 1-->Long, 2-->Adapting:> 
 1) Show Gondola System
 2) Add Car
 3) Update with Debug Info
@@ -186,8 +172,15 @@ Choice:> Which type: 0-->Short, 1-->Long, 2-->Adapting:> Will add long
 5) Show Station Details
 0) Quit
 
-Choice:> Which type: 0-->Short, 1-->Long, 2-->Adapting:> Will add adapting
+Choice:> Which type: 0-->Short, 1-->Long, 2-->Adapting:> 
+1) Show Gondola System
+2) Add Car
+3) Update with Debug Info
+4) Set Station People
+5) Show Station Details
+0) Quit
 
+Choice:> Which type: 0-->Short, 1-->Long, 2-->Adapting:> 
 1) Show Gondola System
 2) Add Car
 3) Update with Debug Info

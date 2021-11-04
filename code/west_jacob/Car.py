@@ -8,9 +8,9 @@ class Car:
         self.waitBehavior = None
 
     def SetWait(self, waitBehavior):
-        self.waitBehavior = waitBehavior.GetWait
+        self.waitBehavior = waitBehavior
 
     def Wait(self):
         if self.waitBehavior is not None:
-            self.waitBehavior()
+            self.timeToClose = self.waitBehavior(self.people)
 

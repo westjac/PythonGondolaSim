@@ -6,8 +6,7 @@
 5) Show Station Details
 0) Quit
 
-Choice:> Which type: 0-->Short, 1-->Long, 2-->Adapting:> Will add short
-
+Choice:> Which type: 0-->Short, 1-->Long, 2-->Adapting:> 
 1) Show Gondola System
 2) Add Car
 3) Update with Debug Info
@@ -16,7 +15,7 @@ Choice:> Which type: 0-->Short, 1-->Long, 2-->Adapting:> Will add short
 0) Quit
 
 Choice:> Time: 0 min
---------Start
+--------Start     Right: [ ID:1   1.0min 0/20 ](0)
     Traveling Left: 
     Traveling Right: 
 --------Station A
@@ -178,8 +177,7 @@ Choice:> not implemented
 5) Show Station Details
 0) Quit
 
-Choice:> Which type: 0-->Short, 1-->Long, 2-->Adapting:> Will add short
-
+Choice:> Which type: 0-->Short, 1-->Long, 2-->Adapting:> 
 1) Show Gondola System
 2) Add Car
 3) Update with Debug Info
@@ -187,8 +185,7 @@ Choice:> Which type: 0-->Short, 1-->Long, 2-->Adapting:> Will add short
 5) Show Station Details
 0) Quit
 
-Choice:> Which type: 0-->Short, 1-->Long, 2-->Adapting:> Will add long
-
+Choice:> Which type: 0-->Short, 1-->Long, 2-->Adapting:> 
 1) Show Gondola System
 2) Add Car
 3) Update with Debug Info
@@ -196,8 +193,7 @@ Choice:> Which type: 0-->Short, 1-->Long, 2-->Adapting:> Will add long
 5) Show Station Details
 0) Quit
 
-Choice:> Which type: 0-->Short, 1-->Long, 2-->Adapting:> Will add short
-
+Choice:> Which type: 0-->Short, 1-->Long, 2-->Adapting:> 
 1) Show Gondola System
 2) Add Car
 3) Update with Debug Info
@@ -205,8 +201,7 @@ Choice:> Which type: 0-->Short, 1-->Long, 2-->Adapting:> Will add short
 5) Show Station Details
 0) Quit
 
-Choice:> Which type: 0-->Short, 1-->Long, 2-->Adapting:> Will add adapting
-
+Choice:> Which type: 0-->Short, 1-->Long, 2-->Adapting:> 
 1) Show Gondola System
 2) Add Car
 3) Update with Debug Info
@@ -215,7 +210,7 @@ Choice:> Which type: 0-->Short, 1-->Long, 2-->Adapting:> Will add adapting
 0) Quit
 
 Choice:> Time: 0 min
---------Start
+--------Start     Right: [ ID:1   1.0min 0/20 ](0)
     Traveling Left: 
     Traveling Right: 
 --------Station A
@@ -368,8 +363,7 @@ Choice:> not implemented
 5) Show Station Details
 0) Quit
 
-Choice:> Which type: 0-->Short, 1-->Long, 2-->Adapting:> Will add adapting
-
+Choice:> Which type: 0-->Short, 1-->Long, 2-->Adapting:> 
 1) Show Gondola System
 2) Add Car
 3) Update with Debug Info

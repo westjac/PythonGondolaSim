@@ -3,9 +3,7 @@ from west_jacob.iterator.IteratorAll import AllIter
 from west_jacob.iterator.IteratorStationOnly import StationIter
 from west_jacob.things.Station import Station
 from west_jacob.things.Stretch import Stretch
-from west_jacob.waitBehavior.Adapt import Adapt
-from west_jacob.waitBehavior.Long import Long
-from west_jacob.waitBehavior.Short import Short
+from west_jacob.waitBehavior.Behaviors import *
 
 
 class Gondola:
@@ -62,14 +60,15 @@ class Gondola:
         self.idCount += 1
 
         if carType == '0':
-            newCar.SetWait(Short())
+            newCar.SetWait(ShortWait)
         elif carType == '1':
-            newCar.SetWait(Long())
+            newCar.SetWait(LongWait)
         elif carType == '2':
-            newCar.SetWait(Adapt())
+            newCar.SetWait(AdaptWait)
         else:
             print("Invalid Input")
 
+        newCar.Wait()
         self.things[0].addCar(newCar) # Add Car to Start
         return
 

@@ -78,8 +78,7 @@ Choice:> not implemented
 5) Show Station Details
 0) Quit
 
-Choice:> Which type: 0-->Short, 1-->Long, 2-->Adapting:> Will add adapting
-
+Choice:> Which type: 0-->Short, 1-->Long, 2-->Adapting:> 
 1) Show Gondola System
 2) Add Car
 3) Update with Debug Info
