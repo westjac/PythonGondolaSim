@@ -19,7 +19,7 @@ class Station(Thing):
         #     left = " Left: [ ID:{0}   {1:1f}min {2}/20 ]({3})"
         #     string += left.format(str(self.leftCars[0].id), self.leftCars[0].timeToClose, str(self.leftCars[0].people), 0)
         if self.rightCar is not None:
-            right = "Right: [ ID:{}   {}min {}/20 ]({})"
+            right = "Right: [ ID:{0:<4}{1}min {2}/20 ]({3})"
             string += right.format(str(self.rightCar.id), self.rightCar.timeToClose, str(self.rightCar.people), len(self.rightWaiting))
 
         return string

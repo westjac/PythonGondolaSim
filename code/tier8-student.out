@@ -15,16 +15,16 @@ Choice:> Which type: 0-->Short, 1-->Long, 2-->Adapting:>
 0) Quit
 
 Choice:> Time: 0 min
---------Start     Right: [ ID:1   1.0min 0/20 ](0)
+--------Start     Right: [ ID:11  1.0min 0/20 ](0)
     Traveling Left: 
     Traveling Right: 
---------Station A
+--------Station A 
     Traveling Left: 
     Traveling Right: 
---------Station B
+--------Station B 
     Traveling Left: 
     Traveling Right: 
---------End
+--------End       
 
 1) Show Gondola System
 2) Add Car
@@ -33,7 +33,17 @@ Choice:> Time: 0 min
 5) Show Station Details
 0) Quit
 
-Choice:> not implemented
+Choice:> Time: 0.5 min
+--------Start     Right: [ ID:11  0.5min 0/20 ](0)
+    Traveling Left: 
+    Traveling Right: 
+--------Station A 
+    Traveling Left: 
+    Traveling Right: 
+--------Station B 
+    Traveling Left: 
+    Traveling Right: 
+--------End       
 
 1) Show Gondola System
 2) Add Car
@@ -42,7 +52,17 @@ Choice:> not implemented
 5) Show Station Details
 0) Quit
 
-Choice:> not implemented
+Choice:> Time: 1.0 min
+--------Start     
+    Traveling Left: 
+    Traveling Right: [ ID:11  0.1 ]
+--------Station A 
+    Traveling Left: 
+    Traveling Right: 
+--------Station B 
+    Traveling Left: 
+    Traveling Right: 
+--------End       
 
 1) Show Gondola System
 2) Add Car
@@ -51,7 +71,17 @@ Choice:> not implemented
 5) Show Station Details
 0) Quit
 
-Choice:> not implemented
+Choice:> Time: 1.5 min
+--------Start     
+    Traveling Left: 
+    Traveling Right: [ ID:11  0.2 ]
+--------Station A 
+    Traveling Left: 
+    Traveling Right: 
+--------Station B 
+    Traveling Left: 
+    Traveling Right: 
+--------End       
 
 1) Show Gondola System
 2) Add Car
@@ -60,7 +90,17 @@ Choice:> not implemented
 5) Show Station Details
 0) Quit
 
-Choice:> not implemented
+Choice:> Time: 2.0 min
+--------Start     
+    Traveling Left: 
+    Traveling Right: 
+--------Station A Right: [ ID:11  1.0min 0/20 ](0)
+    Traveling Left: 
+    Traveling Right: 
+--------Station B 
+    Traveling Left: 
+    Traveling Right: 
+--------End       
 
 1) Show Gondola System
 2) Add Car
@@ -69,7 +109,17 @@ Choice:> not implemented
 5) Show Station Details
 0) Quit
 
-Choice:> not implemented
+Choice:> Time: 2.5 min
+--------Start     
+    Traveling Left: 
+    Traveling Right: 
+--------Station A Right: [ ID:11  0.5min 0/20 ](0)
+    Traveling Left: 
+    Traveling Right: 
+--------Station B 
+    Traveling Left: 
+    Traveling Right: 
+--------End       
 
 1) Show Gondola System
 2) Add Car
@@ -78,7 +128,17 @@ Choice:> not implemented
 5) Show Station Details
 0) Quit
 
-Choice:> not implemented
+Choice:> Time: 3.0 min
+--------Start     
+    Traveling Left: 
+    Traveling Right: 
+--------Station A 
+    Traveling Left: 
+    Traveling Right: [ ID:11  0.1 ]
+--------Station B 
+    Traveling Left: 
+    Traveling Right: 
+--------End       
 
 1) Show Gondola System
 2) Add Car
@@ -87,7 +147,17 @@ Choice:> not implemented
 5) Show Station Details
 0) Quit
 
-Choice:> not implemented
+Choice:> Time: 3.5 min
+--------Start     
+    Traveling Left: 
+    Traveling Right: 
+--------Station A 
+    Traveling Left: 
+    Traveling Right: [ ID:11  0.2 ]
+--------Station B 
+    Traveling Left: 
+    Traveling Right: 
+--------End       
 
 1) Show Gondola System
 2) Add Car
@@ -96,7 +166,17 @@ Choice:> not implemented
 5) Show Station Details
 0) Quit
 
-Choice:> not implemented
+Choice:> Time: 4.0 min
+--------Start     
+    Traveling Left: 
+    Traveling Right: 
+--------Station A 
+    Traveling Left: 
+    Traveling Right: 
+--------Station B Right: [ ID:11  1.0min 0/20 ](0)
+    Traveling Left: 
+    Traveling Right: 
+--------End       
 
 1) Show Gondola System
 2) Add Car
@@ -105,7 +185,17 @@ Choice:> not implemented
 5) Show Station Details
 0) Quit
 
-Choice:> not implemented
+Choice:> Time: 4.5 min
+--------Start     
+    Traveling Left: 
+    Traveling Right: 
+--------Station A 
+    Traveling Left: 
+    Traveling Right: 
+--------Station B Right: [ ID:11  0.5min 0/20 ](0)
+    Traveling Left: 
+    Traveling Right: 
+--------End       
 
 1) Show Gondola System
 2) Add Car
@@ -114,7 +204,17 @@ Choice:> not implemented
 5) Show Station Details
 0) Quit
 
-Choice:> not implemented
+Choice:> Time: 5.0 min
+--------Start     
+    Traveling Left: 
+    Traveling Right: 
+--------Station A 
+    Traveling Left: 
+    Traveling Right: 
+--------Station B 
+    Traveling Left: 
+    Traveling Right: [ ID:11  0.1 ]
+--------End       
 
 1) Show Gondola System
 2) Add Car
@@ -123,7 +223,17 @@ Choice:> not implemented
 5) Show Station Details
 0) Quit
 
-Choice:> not implemented
+Choice:> Time: 5.5 min
+--------Start     
+    Traveling Left: 
+    Traveling Right: 
+--------Station A 
+    Traveling Left: 
+    Traveling Right: 
+--------Station B 
+    Traveling Left: 
+    Traveling Right: [ ID:11  0.2 ]
+--------End       
 
 1) Show Gondola System
 2) Add Car
@@ -132,7 +242,17 @@ Choice:> not implemented
 5) Show Station Details
 0) Quit
 
-Choice:> not implemented
+Choice:> Time: 6.0 min
+--------Start     
+    Traveling Left: 
+    Traveling Right: 
+--------Station A 
+    Traveling Left: 
+    Traveling Right: 
+--------Station B 
+    Traveling Left: 
+    Traveling Right: 
+--------End       Right: [ ID:11  1.0min 0/20 ](0)
 
 1) Show Gondola System
 2) Add Car
@@ -141,7 +261,17 @@ Choice:> not implemented
 5) Show Station Details
 0) Quit
 
-Choice:> not implemented
+Choice:> Time: 6.5 min
+--------Start     
+    Traveling Left: 
+    Traveling Right: 
+--------Station A 
+    Traveling Left: 
+    Traveling Right: 
+--------Station B 
+    Traveling Left: 
+    Traveling Right: 
+--------End       Right: [ ID:11  0.5min 0/20 ](0)
 
 1) Show Gondola System
 2) Add Car
@@ -150,7 +280,17 @@ Choice:> not implemented
 5) Show Station Details
 0) Quit
 
-Choice:> not implemented
+Choice:> Time: 7.0 min
+--------Start     
+    Traveling Left: 
+    Traveling Right: 
+--------Station A 
+    Traveling Left: 
+    Traveling Right: 
+--------Station B 
+    Traveling Left: 
+    Traveling Right: [ ID:11  0.1 ]
+--------End       
 
 1) Show Gondola System
 2) Add Car
@@ -159,7 +299,17 @@ Choice:> not implemented
 5) Show Station Details
 0) Quit
 
-Choice:> not implemented
+Choice:> Time: 7.5 min
+--------Start     
+    Traveling Left: 
+    Traveling Right: 
+--------Station A 
+    Traveling Left: 
+    Traveling Right: 
+--------Station B 
+    Traveling Left: 
+    Traveling Right: [ ID:11  0.2 ]
+--------End       
 
 1) Show Gondola System
 2) Add Car
@@ -168,7 +318,17 @@ Choice:> not implemented
 5) Show Station Details
 0) Quit
 
-Choice:> not implemented
+Choice:> Time: 8.0 min
+--------Start     
+    Traveling Left: 
+    Traveling Right: 
+--------Station A 
+    Traveling Left: 
+    Traveling Right: 
+--------Station B 
+    Traveling Left: 
+    Traveling Right: 
+--------End       Right: [ ID:11  1.0min 0/20 ](0)
 
 1) Show Gondola System
 2) Add Car
@@ -177,7 +337,17 @@ Choice:> not implemented
 5) Show Station Details
 0) Quit
 
-Choice:> not implemented
+Choice:> Time: 8.5 min
+--------Start     
+    Traveling Left: 
+    Traveling Right: 
+--------Station A 
+    Traveling Left: 
+    Traveling Right: 
+--------Station B 
+    Traveling Left: 
+    Traveling Right: 
+--------End       Right: [ ID:11  0.5min 0/20 ](0)
 
 1) Show Gondola System
 2) Add Car
@@ -186,7 +356,17 @@ Choice:> not implemented
 5) Show Station Details
 0) Quit
 
-Choice:> not implemented
+Choice:> Time: 9.0 min
+--------Start     
+    Traveling Left: 
+    Traveling Right: 
+--------Station A 
+    Traveling Left: 
+    Traveling Right: 
+--------Station B 
+    Traveling Left: 
+    Traveling Right: [ ID:11  0.1 ]
+--------End       
 
 1) Show Gondola System
 2) Add Car
@@ -195,7 +375,17 @@ Choice:> not implemented
 5) Show Station Details
 0) Quit
 
-Choice:> not implemented
+Choice:> Time: 9.5 min
+--------Start     
+    Traveling Left: 
+    Traveling Right: 
+--------Station A 
+    Traveling Left: 
+    Traveling Right: 
+--------Station B 
+    Traveling Left: 
+    Traveling Right: [ ID:11  0.2 ]
+--------End       
 
 1) Show Gondola System
 2) Add Car
@@ -204,7 +394,17 @@ Choice:> not implemented
 5) Show Station Details
 0) Quit
 
-Choice:> not implemented
+Choice:> Time: 10.0 min
+--------Start     
+    Traveling Left: 
+    Traveling Right: 
+--------Station A 
+    Traveling Left: 
+    Traveling Right: 
+--------Station B 
+    Traveling Left: 
+    Traveling Right: 
+--------End       Right: [ ID:11  1.0min 0/20 ](0)
 
 1) Show Gondola System
 2) Add Car
@@ -213,7 +413,17 @@ Choice:> not implemented
 5) Show Station Details
 0) Quit
 
-Choice:> not implemented
+Choice:> Time: 10.5 min
+--------Start     
+    Traveling Left: 
+    Traveling Right: 
+--------Station A 
+    Traveling Left: 
+    Traveling Right: 
+--------Station B 
+    Traveling Left: 
+    Traveling Right: 
+--------End       Right: [ ID:11  0.5min 0/20 ](0)
 
 1) Show Gondola System
 2) Add Car
@@ -222,7 +432,17 @@ Choice:> not implemented
 5) Show Station Details
 0) Quit
 
-Choice:> not implemented
+Choice:> Time: 11.0 min
+--------Start     
+    Traveling Left: 
+    Traveling Right: 
+--------Station A 
+    Traveling Left: 
+    Traveling Right: 
+--------Station B 
+    Traveling Left: 
+    Traveling Right: [ ID:11  0.1 ]
+--------End       
 
 1) Show Gondola System
 2) Add Car
@@ -231,7 +451,17 @@ Choice:> not implemented
 5) Show Station Details
 0) Quit
 
-Choice:> not implemented
+Choice:> Time: 11.5 min
+--------Start     
+    Traveling Left: 
+    Traveling Right: 
+--------Station A 
+    Traveling Left: 
+    Traveling Right: 
+--------Station B 
+    Traveling Left: 
+    Traveling Right: [ ID:11  0.2 ]
+--------End       
 
 1) Show Gondola System
 2) Add Car
@@ -240,7 +470,17 @@ Choice:> not implemented
 5) Show Station Details
 0) Quit
 
-Choice:> not implemented
+Choice:> Time: 12.0 min
+--------Start     
+    Traveling Left: 
+    Traveling Right: 
+--------Station A 
+    Traveling Left: 
+    Traveling Right: 
+--------Station B 
+    Traveling Left: 
+    Traveling Right: 
+--------End       Right: [ ID:11  1.0min 0/20 ](0)
 
 1) Show Gondola System
 2) Add Car
@@ -249,7 +489,17 @@ Choice:> not implemented
 5) Show Station Details
 0) Quit
 
-Choice:> not implemented
+Choice:> Time: 12.5 min
+--------Start     
+    Traveling Left: 
+    Traveling Right: 
+--------Station A 
+    Traveling Left: 
+    Traveling Right: 
+--------Station B 
+    Traveling Left: 
+    Traveling Right: 
+--------End       Right: [ ID:11  0.5min 0/20 ](0)
 
 1) Show Gondola System
 2) Add Car
@@ -258,7 +508,17 @@ Choice:> not implemented
 5) Show Station Details
 0) Quit
 
-Choice:> not implemented
+Choice:> Time: 13.0 min
+--------Start     
+    Traveling Left: 
+    Traveling Right: 
+--------Station A 
+    Traveling Left: 
+    Traveling Right: 
+--------Station B 
+    Traveling Left: 
+    Traveling Right: [ ID:11  0.1 ]
+--------End       
 
 1) Show Gondola System
 2) Add Car
@@ -267,7 +527,17 @@ Choice:> not implemented
 5) Show Station Details
 0) Quit
 
-Choice:> not implemented
+Choice:> Time: 13.5 min
+--------Start     
+    Traveling Left: 
+    Traveling Right: 
+--------Station A 
+    Traveling Left: 
+    Traveling Right: 
+--------Station B 
+    Traveling Left: 
+    Traveling Right: [ ID:11  0.2 ]
+--------End       
 
 1) Show Gondola System
 2) Add Car
@@ -276,7 +546,17 @@ Choice:> not implemented
 5) Show Station Details
 0) Quit
 
-Choice:> not implemented
+Choice:> Time: 14.0 min
+--------Start     
+    Traveling Left: 
+    Traveling Right: 
+--------Station A 
+    Traveling Left: 
+    Traveling Right: 
+--------Station B 
+    Traveling Left: 
+    Traveling Right: 
+--------End       Right: [ ID:11  1.0min 0/20 ](0)
 
 1) Show Gondola System
 2) Add Car
@@ -285,7 +565,17 @@ Choice:> not implemented
 5) Show Station Details
 0) Quit
 
-Choice:> not implemented
+Choice:> Time: 14.5 min
+--------Start     
+    Traveling Left: 
+    Traveling Right: 
+--------Station A 
+    Traveling Left: 
+    Traveling Right: 
+--------Station B 
+    Traveling Left: 
+    Traveling Right: 
+--------End       Right: [ ID:11  0.5min 0/20 ](0)
 
 1) Show Gondola System
 2) Add Car
@@ -294,7 +584,17 @@ Choice:> not implemented
 5) Show Station Details
 0) Quit
 
-Choice:> not implemented
+Choice:> Time: 15.0 min
+--------Start     
+    Traveling Left: 
+    Traveling Right: 
+--------Station A 
+    Traveling Left: 
+    Traveling Right: 
+--------Station B 
+    Traveling Left: 
+    Traveling Right: [ ID:11  0.1 ]
+--------End       
 
 1) Show Gondola System
 2) Add Car
@@ -303,7 +603,17 @@ Choice:> not implemented
 5) Show Station Details
 0) Quit
 
-Choice:> not implemented
+Choice:> Time: 15.5 min
+--------Start     
+    Traveling Left: 
+    Traveling Right: 
+--------Station A 
+    Traveling Left: 
+    Traveling Right: 
+--------Station B 
+    Traveling Left: 
+    Traveling Right: [ ID:11  0.2 ]
+--------End       
 
 1) Show Gondola System
 2) Add Car
@@ -312,7 +622,17 @@ Choice:> not implemented
 5) Show Station Details
 0) Quit
 
-Choice:> not implemented
+Choice:> Time: 16.0 min
+--------Start     
+    Traveling Left: 
+    Traveling Right: 
+--------Station A 
+    Traveling Left: 
+    Traveling Right: 
+--------Station B 
+    Traveling Left: 
+    Traveling Right: 
+--------End       Right: [ ID:11  1.0min 0/20 ](0)
 
 1) Show Gondola System
 2) Add Car
@@ -321,7 +641,17 @@ Choice:> not implemented
 5) Show Station Details
 0) Quit
 
-Choice:> not implemented
+Choice:> Time: 16.5 min
+--------Start     
+    Traveling Left: 
+    Traveling Right: 
+--------Station A 
+    Traveling Left: 
+    Traveling Right: 
+--------Station B 
+    Traveling Left: 
+    Traveling Right: 
+--------End       Right: [ ID:11  0.5min 0/20 ](0)
 
 1) Show Gondola System
 2) Add Car
@@ -330,7 +660,17 @@ Choice:> not implemented
 5) Show Station Details
 0) Quit
 
-Choice:> not implemented
+Choice:> Time: 17.0 min
+--------Start     
+    Traveling Left: 
+    Traveling Right: 
+--------Station A 
+    Traveling Left: 
+    Traveling Right: 
+--------Station B 
+    Traveling Left: 
+    Traveling Right: [ ID:11  0.1 ]
+--------End       
 
 1) Show Gondola System
 2) Add Car
@@ -339,7 +679,17 @@ Choice:> not implemented
 5) Show Station Details
 0) Quit
 
-Choice:> not implemented
+Choice:> Time: 17.5 min
+--------Start     
+    Traveling Left: 
+    Traveling Right: 
+--------Station A 
+    Traveling Left: 
+    Traveling Right: 
+--------Station B 
+    Traveling Left: 
+    Traveling Right: [ ID:11  0.2 ]
+--------End       
 
 1) Show Gondola System
 2) Add Car
@@ -348,7 +698,17 @@ Choice:> not implemented
 5) Show Station Details
 0) Quit
 
-Choice:> not implemented
+Choice:> Time: 18.0 min
+--------Start     
+    Traveling Left: 
+    Traveling Right: 
+--------Station A 
+    Traveling Left: 
+    Traveling Right: 
+--------Station B 
+    Traveling Left: 
+    Traveling Right: 
+--------End       Right: [ ID:11  1.0min 0/20 ](0)
 
 1) Show Gondola System
 2) Add Car
@@ -357,7 +717,17 @@ Choice:> not implemented
 5) Show Station Details
 0) Quit
 
-Choice:> not implemented
+Choice:> Time: 18.5 min
+--------Start     
+    Traveling Left: 
+    Traveling Right: 
+--------Station A 
+    Traveling Left: 
+    Traveling Right: 
+--------Station B 
+    Traveling Left: 
+    Traveling Right: 
+--------End       Right: [ ID:11  0.5min 0/20 ](0)
 
 1) Show Gondola System
 2) Add Car
@@ -366,7 +736,17 @@ Choice:> not implemented
 5) Show Station Details
 0) Quit
 
-Choice:> not implemented
+Choice:> Time: 19.0 min
+--------Start     
+    Traveling Left: 
+    Traveling Right: 
+--------Station A 
+    Traveling Left: 
+    Traveling Right: 
+--------Station B 
+    Traveling Left: 
+    Traveling Right: [ ID:11  0.1 ]
+--------End       
 
 1) Show Gondola System
 2) Add Car
@@ -375,7 +755,17 @@ Choice:> not implemented
 5) Show Station Details
 0) Quit
 
-Choice:> not implemented
+Choice:> Time: 19.5 min
+--------Start     
+    Traveling Left: 
+    Traveling Right: 
+--------Station A 
+    Traveling Left: 
+    Traveling Right: 
+--------Station B 
+    Traveling Left: 
+    Traveling Right: [ ID:11  0.2 ]
+--------End       
 
 1) Show Gondola System
 2) Add Car

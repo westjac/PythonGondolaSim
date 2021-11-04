@@ -15,7 +15,7 @@ class Stretch(Thing):
         left = ""
         if len(self.rightCars) > 0:
             for car in self.rightCars:
-                right += "[ ID:{}   {} ]".format(car.id, car.loc)
+                right += "[ ID:{0:<4}{1} ]".format(car.id, car.loc)
 
         return status.format(left, right)
 
