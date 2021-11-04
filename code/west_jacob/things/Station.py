@@ -14,7 +14,7 @@ class Station(Thing):
         #     string += left.format(str(self.leftCars[0].id), self.leftCars[0].timeToClose, str(self.leftCars[0].people), 0)
         if len(self.rightCars) > 0:
             right = "     Right: [ ID:{}   {}min {}/20 ]({})"
-            string += right.format(str(self.rightCars[0].id), self.rightCars[0].timeToClose, str(self.rightCars[0].people), 0)
+            string += right.format(str(self.rightCars[0].id), self.rightCars[0].timeToClose, str(self.rightCars[0].people), len(self.rightCars) - 1)
 
         return string
 

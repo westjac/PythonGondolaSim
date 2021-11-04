@@ -7,9 +7,9 @@ from west_jacob.waitBehavior.Behaviors import *
 
 
 class Gondola:
+    carId = 1
     def __init__(self):
         self.time = 0
-        self.idCount = 1
         start = Station("Start")
         stretch1 = Stretch("Stretch 1")
         stationA = Station("Station A")
@@ -56,8 +56,7 @@ class Gondola:
     def addCar(self):
         carType = input("Which type: 0-->Short, 1-->Long, 2-->Adapting:> ")
 
-        newCar = Car(self.idCount)
-        self.idCount += 1
+        newCar = Car(Gondola.carId)
 
         if carType == '0':
             newCar.SetWait(ShortWait)
@@ -67,9 +66,11 @@ class Gondola:
             newCar.SetWait(AdaptWait)
         else:
             print("Invalid Input")
+            return
 
         newCar.Wait()
-        self.things[0].addCar(newCar) # Add Car to Start
+        self.things[0].addCar(newCar)  # Add Car to Start
+        Gondola.carId += 1
         return
 
     def setStationPeople(self):
