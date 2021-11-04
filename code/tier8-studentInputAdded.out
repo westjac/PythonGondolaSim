@@ -305,8 +305,8 @@ Time: 7.0 min
     Traveling Left: 
     Traveling Right: 
 --------Station B 
-    Traveling Left: 
-    Traveling Right: [ ID:11  0.1 ]
+    Traveling Left: [ ID:11  0.1 ]
+    Traveling Right: 
 --------End       
 
 1) Show Gondola System
@@ -325,8 +325,8 @@ Time: 7.5 min
     Traveling Left: 
     Traveling Right: 
 --------Station B 
-    Traveling Left: 
-    Traveling Right: [ ID:11  0.2 ]
+    Traveling Left: [ ID:11  0.2 ]
+    Traveling Right: 
 --------End       
 
 1) Show Gondola System
@@ -344,10 +344,10 @@ Time: 8.0 min
 --------Station A 
     Traveling Left: 
     Traveling Right: 
---------Station B 
+--------Station B Left: [ ID:11  1.0min 0/20 ](0)   
     Traveling Left: 
     Traveling Right: 
---------End       Right: [ ID:11  1.0min 0/20 ](0)
+--------End       
 
 1) Show Gondola System
 2) Add Car
@@ -364,10 +364,10 @@ Time: 8.5 min
 --------Station A 
     Traveling Left: 
     Traveling Right: 
---------Station B 
+--------Station B Left: [ ID:11  0.5min 0/20 ](0)   
     Traveling Left: 
     Traveling Right: 
---------End       Right: [ ID:11  0.5min 0/20 ](0)
+--------End       
 
 1) Show Gondola System
 2) Add Car
@@ -382,11 +382,11 @@ Time: 9.0 min
     Traveling Left: 
     Traveling Right: 
 --------Station A 
-    Traveling Left: 
+    Traveling Left: [ ID:11  0.1 ]
     Traveling Right: 
 --------Station B 
     Traveling Left: 
-    Traveling Right: [ ID:11  0.1 ]
+    Traveling Right: 
 --------End       
 
 1) Show Gondola System
@@ -402,11 +402,11 @@ Time: 9.5 min
     Traveling Left: 
     Traveling Right: 
 --------Station A 
-    Traveling Left: 
+    Traveling Left: [ ID:11  0.2 ]
     Traveling Right: 
 --------Station B 
     Traveling Left: 
-    Traveling Right: [ ID:11  0.2 ]
+    Traveling Right: 
 --------End       
 
 1) Show Gondola System
@@ -421,13 +421,13 @@ Time: 10.0 min
 --------Start     
     Traveling Left: 
     Traveling Right: 
---------Station A 
+--------Station A Left: [ ID:11  1.0min 0/20 ](0)   
     Traveling Left: 
     Traveling Right: 
 --------Station B 
     Traveling Left: 
     Traveling Right: 
---------End       Right: [ ID:11  1.0min 0/20 ](0)
+--------End       
 
 1) Show Gondola System
 2) Add Car
@@ -441,13 +441,13 @@ Time: 10.5 min
 --------Start     
     Traveling Left: 
     Traveling Right: 
---------Station A 
+--------Station A Left: [ ID:11  0.5min 0/20 ](0)   
     Traveling Left: 
     Traveling Right: 
 --------Station B 
     Traveling Left: 
     Traveling Right: 
---------End       Right: [ ID:11  0.5min 0/20 ](0)
+--------End       
 
 1) Show Gondola System
 2) Add Car
@@ -459,14 +459,14 @@ Time: 10.5 min
 Choice:> [34m[01m3[0m
 Time: 11.0 min
 --------Start     
-    Traveling Left: 
+    Traveling Left: [ ID:11  0.1 ]
     Traveling Right: 
 --------Station A 
     Traveling Left: 
     Traveling Right: 
 --------Station B 
     Traveling Left: 
-    Traveling Right: [ ID:11  0.1 ]
+    Traveling Right: 
 --------End       
 
 1) Show Gondola System
@@ -479,14 +479,14 @@ Time: 11.0 min
 Choice:> [34m[01m3[0m
 Time: 11.5 min
 --------Start     
-    Traveling Left: 
+    Traveling Left: [ ID:11  0.2 ]
     Traveling Right: 
 --------Station A 
     Traveling Left: 
     Traveling Right: 
 --------Station B 
     Traveling Left: 
-    Traveling Right: [ ID:11  0.2 ]
+    Traveling Right: 
 --------End       
 
 1) Show Gondola System
@@ -498,7 +498,7 @@ Time: 11.5 min
 
 Choice:> [34m[01m3[0m
 Time: 12.0 min
---------Start     
+--------Start     Left: [ ID:11  1.0min 0/20 ](0)   
     Traveling Left: 
     Traveling Right: 
 --------Station A 
@@ -507,7 +507,7 @@ Time: 12.0 min
 --------Station B 
     Traveling Left: 
     Traveling Right: 
---------End       Right: [ ID:11  1.0min 0/20 ](0)
+--------End       
 
 1) Show Gondola System
 2) Add Car
@@ -518,7 +518,7 @@ Time: 12.0 min
 
 Choice:> [34m[01m3[0m
 Time: 12.5 min
---------Start     
+--------Start     Left: [ ID:11  0.5min 0/20 ](0)   
     Traveling Left: 
     Traveling Right: 
 --------Station A 
@@ -527,7 +527,7 @@ Time: 12.5 min
 --------Station B 
     Traveling Left: 
     Traveling Right: 
---------End       Right: [ ID:11  0.5min 0/20 ](0)
+--------End       
 
 1) Show Gondola System
 2) Add Car
@@ -540,13 +540,13 @@ Choice:> [34m[01m3[0m
 Time: 13.0 min
 --------Start     
     Traveling Left: 
-    Traveling Right: 
+    Traveling Right: [ ID:11  0.1 ]
 --------Station A 
     Traveling Left: 
     Traveling Right: 
 --------Station B 
     Traveling Left: 
-    Traveling Right: [ ID:11  0.1 ]
+    Traveling Right: 
 --------End       
 
 1) Show Gondola System
@@ -560,13 +560,13 @@ Choice:> [34m[01m3[0m
 Time: 13.5 min
 --------Start     
     Traveling Left: 
-    Traveling Right: 
+    Traveling Right: [ ID:11  0.2 ]
 --------Station A 
     Traveling Left: 
     Traveling Right: 
 --------Station B 
     Traveling Left: 
-    Traveling Right: [ ID:11  0.2 ]
+    Traveling Right: 
 --------End       
 
 1) Show Gondola System
@@ -581,13 +581,13 @@ Time: 14.0 min
 --------Start     
     Traveling Left: 
     Traveling Right: 
---------Station A 
+--------Station A Right: [ ID:11  1.0min 0/20 ](0)
     Traveling Left: 
     Traveling Right: 
 --------Station B 
     Traveling Left: 
     Traveling Right: 
---------End       Right: [ ID:11  1.0min 0/20 ](0)
+--------End       
 
 1) Show Gondola System
 2) Add Car
@@ -601,13 +601,13 @@ Time: 14.5 min
 --------Start     
     Traveling Left: 
     Traveling Right: 
---------Station A 
+--------Station A Right: [ ID:11  0.5min 0/20 ](0)
     Traveling Left: 
     Traveling Right: 
 --------Station B 
     Traveling Left: 
     Traveling Right: 
---------End       Right: [ ID:11  0.5min 0/20 ](0)
+--------End       
 
 1) Show Gondola System
 2) Add Car
@@ -623,10 +623,10 @@ Time: 15.0 min
     Traveling Right: 
 --------Station A 
     Traveling Left: 
-    Traveling Right: 
+    Traveling Right: [ ID:11  0.1 ]
 --------Station B 
     Traveling Left: 
-    Traveling Right: [ ID:11  0.1 ]
+    Traveling Right: 
 --------End       
 
 1) Show Gondola System
@@ -643,10 +643,10 @@ Time: 15.5 min
     Traveling Right: 
 --------Station A 
     Traveling Left: 
-    Traveling Right: 
+    Traveling Right: [ ID:11  0.2 ]
 --------Station B 
     Traveling Left: 
-    Traveling Right: [ ID:11  0.2 ]
+    Traveling Right: 
 --------End       
 
 1) Show Gondola System
@@ -664,10 +664,10 @@ Time: 16.0 min
 --------Station A 
     Traveling Left: 
     Traveling Right: 
---------Station B 
+--------Station B Right: [ ID:11  1.0min 0/20 ](0)
     Traveling Left: 
     Traveling Right: 
---------End       Right: [ ID:11  1.0min 0/20 ](0)
+--------End       
 
 1) Show Gondola System
 2) Add Car
@@ -684,10 +684,10 @@ Time: 16.5 min
 --------Station A 
     Traveling Left: 
     Traveling Right: 
---------Station B 
+--------Station B Right: [ ID:11  0.5min 0/20 ](0)
     Traveling Left: 
     Traveling Right: 
---------End       Right: [ ID:11  0.5min 0/20 ](0)
+--------End       
 
 1) Show Gondola System
 2) Add Car
@@ -785,8 +785,8 @@ Time: 19.0 min
     Traveling Left: 
     Traveling Right: 
 --------Station B 
-    Traveling Left: 
-    Traveling Right: [ ID:11  0.1 ]
+    Traveling Left: [ ID:11  0.1 ]
+    Traveling Right: 
 --------End       
 
 1) Show Gondola System
@@ -805,8 +805,8 @@ Time: 19.5 min
     Traveling Left: 
     Traveling Right: 
 --------Station B 
-    Traveling Left: 
-    Traveling Right: [ ID:11  0.2 ]
+    Traveling Left: [ ID:11  0.2 ]
+    Traveling Right: 
 --------End       
 
 1) Show Gondola System

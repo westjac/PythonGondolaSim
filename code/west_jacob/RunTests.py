@@ -236,10 +236,9 @@ def printErrors(answerFile, outFile):
             errorCnt += 1
 
 if(DEBUG):
-    tests = ["../tier1","../tier2","../tier3","../tier4", "../tier5", "../tier6", "../tier7", "../tier8",
-             ]
+    tests = ["../tier1","../tier2","../tier3","../tier4", "../tier5", "../tier6", "../tier7", "../tier8", "../tier9"]
 
-    #     "../tier9"
+    #
     for base in tests:
         file = base + ".txt"
         outFile = base + "-student.out"
