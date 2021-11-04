@@ -47,9 +47,9 @@ class Station(Thing):
     def addCarRight(self, car):
         if self.rightCar is None:
             self.rightCar = car
-            self.rightCar.Wait()
             self.rightCar.updatePeople(-self.gettingOff)
             self.rightCar.updatePeople(self.gettingOn)
+            self.rightCar.Wait()
         else:
             self.rightWaiting.append(car)
         return
