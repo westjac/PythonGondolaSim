@@ -8,6 +8,10 @@ from west_jacob.waitBehavior.Behaviors import *
 
 
 class Gondola:
+    """
+    Class containing all data and operations associated with the Gondola application.
+
+    """
     carId = 1
 
     def __init__(self):
@@ -41,24 +45,48 @@ class Gondola:
         self.start = start
 
     def getIterator(self):
+        """
+        Gets an iterator for all things (stations and stretches) in the system.
+
+        :return: Iterator of all things
+        """
         return AllIter(self.things)
 
     def getStationIterator(self):
+        """
+        Gets an iterator for all stations in the system.
+
+        :return: Iterator of stations
+        """
         return StationIter(self.things)
 
     def getStretchIterator(self):
+        """
+        Gets an iterator for all stretches in the system.
+
+        :return: Iterator of stretches
+        """
         return StretchIter(self.things)
 
     def printSystem(self):
+        """
+        Prints out the current status of the Gondola system.
+
+        """
         iter = self.getIterator()
 
         print('Time: ' + str(self.time) + ' min')
-        for thing in iter:
+        for thing in iter: # GRADING: LOOP_ALL
             print(thing)
 
         return
 
     def addCar(self):
+        """
+        Adds a car to the start of the gondola system going right. User can choose the wait time functionality
+        when creating the car.
+
+        """
         carType = input("Which type: 0-->Short, 1-->Long, 2-->Adapting:> ")
 
         newCar = Car(Gondola.carId)
@@ -79,6 +107,10 @@ class Gondola:
         return
 
     def setStationPeople(self):
+        """
+        Prompts the user to enter the number of people that load and unload at each station.
+
+        """
         try:
             for station in self.getStationIterator():
                 print(station.name)
@@ -94,9 +126,13 @@ class Gondola:
             print("Invalid Input")
 
     def printStationDetails(self):
+        """
+        Prints details about each station in the Gondola system.
+
+        """
         stationIter = self.getStationIterator()
 
-        for station in stationIter:
+        for station in stationIter: # GRADING: LOOP_CAR
             print(station)
             print("    People getting on/off: {}/{}".format(station.gettingOn, station.gettingOff))
             print("    Delayed on...")
@@ -110,6 +146,10 @@ class Gondola:
         return
 
     def update(self):
+        """
+        Iterates through the stations and stretches, updating the status and locations of all the cars.
+
+        """
         self.time += 0.5
         for station in self.getStationIterator():
             station.updateCars()

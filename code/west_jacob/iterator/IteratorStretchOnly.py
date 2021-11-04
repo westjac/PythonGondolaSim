@@ -1,4 +1,8 @@
 class StretchIter:
+    """
+    Iterator that goes through all the stretches in the gondola system.
+
+    """
     def __init__(self, things):
         self.things = things
 

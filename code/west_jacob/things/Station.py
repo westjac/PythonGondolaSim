@@ -2,6 +2,10 @@ from west_jacob.things.Thing import Thing
 
 
 class Station(Thing):
+    """
+    Station inherits Thing and serves as the stopping point for gondola cars.
+
+    """
     def __init__(self, name):
         Thing.__init__(self)
         self.name = name
@@ -14,6 +18,11 @@ class Station(Thing):
         self.rightWaiting = []
 
     def __str__(self):
+        """
+        Ovveride of the str function for a Station.
+
+        :return: Name of the station and the current cars waiting going left and/or right.
+        """
         string = "--------%-10s" % (self.name)
         if self.leftCar is not None:
             left = "Left: [ ID:{0:<4}{1}min {2}/20 ]({3})   "
@@ -24,15 +33,13 @@ class Station(Thing):
 
         return string
 
-    def peopleOn(self, count):
-        self.people += count
-        return
-
-    def peopleOff(self, count):
-        self.people -= count
-        return
-
     def updateCars(self):
+        """
+        Updates the cars in the station. Updates the wait time for the current car on deck going left/right.
+        If the car's door closed it moves it on to the next stretch and will load any cars that are waiting to unload
+        at the station.
+
+        """
         if self.rightCar is not None:
             timeRight = self.rightCar.updateWait()
             if timeRight == 0: # The gondola is ready to move to the next stretch
@@ -67,6 +74,11 @@ class Station(Thing):
         return
 
     def addCarRight(self, car):
+        """
+        Adds a car to the station going right. If a car is already unloading, put it in the waiting list.
+
+        :param car: the car to be added
+        """
         if self.rightCar is None:
             self.rightCar = car
             self.rightCar.updatePeople(-self.gettingOff)
@@ -78,6 +90,11 @@ class Station(Thing):
         return
 
     def addCarLeft(self, car):
+        """
+        Adds a car to the station going left. If a car is already unloading, put it in the waiting list.
+
+        :param car: The car to be added
+        """
         if self.leftCar is None:
             self.leftCar = car
             self.leftCar.updatePeople(-self.gettingOff)

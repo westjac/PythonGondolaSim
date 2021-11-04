@@ -1,8 +1,12 @@
 class StationIter:
+    """
+    Iterator that goes through all stations in the gondola system.
+
+    """
     def __init__(self, things):
         self.things = things
 
-    def __iter__(self):
+    def __iter__(self): # GRADING: INTER_CAR
         self.index = -1
         return self
 
