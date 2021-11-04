@@ -80,7 +80,7 @@ def main():
         elif choice == '4':
             gondola.setStationPeople()  # Set Station People
         elif choice == '5':
-            print('not implemented')  # Show Station Details
+            gondola.printStationDetails()  # Show Station Details
         elif choice == '0':
             return  # Quit
         else:

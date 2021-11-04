@@ -7,7 +7,30 @@
 0) Quit
 
 Choice:> [34m[01m5[0m
-not implemented
+--------Start     
+    People getting on/off: 0/0
+    Delayed on...
+      Left Side: 
+      Right Side: 
+
+--------Station A 
+    People getting on/off: 0/0
+    Delayed on...
+      Left Side: 
+      Right Side: 
+
+--------Station B 
+    People getting on/off: 0/0
+    Delayed on...
+      Left Side: 
+      Right Side: 
+
+--------End       
+    People getting on/off: 0/0
+    Delayed on...
+      Left Side: 
+      Right Side: 
+
 
 1) Show Gondola System
 2) Add Car
@@ -20,6 +43,15 @@ Choice:> [34m[01m4[0m
 Start
     Getting on:> [34m[01m0[0m
     Getting off:> [34m[01m4[0m
+Station A
+    Getting on:> [34m[01m5[0m
+    Getting off:> [34m[01m3[0m
+Station B
+    Getting on:> [34m[01m7[0m
+    Getting off:> [34m[01m2[0m
+End
+    Getting on:> [34m[01m20[0m
+    Getting off:> [34m[01m8[0m
 
 1) Show Gondola System
 2) Add Car
@@ -29,58 +61,30 @@ Start
 0) Quit
 
 Choice:> [34m[01m5[0m
-not implemented
+--------Start     
+    People getting on/off: 0/4
+    Delayed on...
+      Left Side: 
+      Right Side: 
 
-1) Show Gondola System
-2) Add Car
-3) Update with Debug Info
-4) Set Station People
-5) Show Station Details
-0) Quit
+--------Station A 
+    People getting on/off: 5/3
+    Delayed on...
+      Left Side: 
+      Right Side: 
 
-Choice:> [34m[01m3[0m
-not implemented
+--------Station B 
+    People getting on/off: 7/2
+    Delayed on...
+      Left Side: 
+      Right Side: 
 
-1) Show Gondola System
-2) Add Car
-3) Update with Debug Info
-4) Set Station People
-5) Show Station Details
-0) Quit
+--------End       
+    People getting on/off: 20/8
+    Delayed on...
+      Left Side: 
+      Right Side: 
 
-Choice:> [34m[01m7[0m
-Invalid menu option
-
-1) Show Gondola System
-2) Add Car
-3) Update with Debug Info
-4) Set Station People
-5) Show Station Details
-0) Quit
-
-Choice:> [34m[01m2[0m
-Which type: 0-->Short, 1-->Long, 2-->Adapting:> [34m[01m20[0m
-Invalid Input
-
-1) Show Gondola System
-2) Add Car
-3) Update with Debug Info
-4) Set Station People
-5) Show Station Details
-0) Quit
-
-Choice:> [34m[01m8[0m
-Invalid menu option
-
-1) Show Gondola System
-2) Add Car
-3) Update with Debug Info
-4) Set Station People
-5) Show Station Details
-0) Quit
-
-Choice:> [34m[01m5[0m
-not implemented
 
 1) Show Gondola System
 2) Add Car
@@ -100,7 +104,17 @@ Which type: 0-->Short, 1-->Long, 2-->Adapting:> [34m[01m2[0m
 0) Quit
 
 Choice:> [34m[01m3[0m
-not implemented
+Time: 0.5 min
+--------Start     Right: [ ID:4   0.5min 0/20 ](0)
+    Traveling Left: 
+    Traveling Right: 
+--------Station A 
+    Traveling Left: 
+    Traveling Right: 
+--------Station B 
+    Traveling Left: 
+    Traveling Right: 
+--------End       
 
 1) Show Gondola System
 2) Add Car
@@ -110,7 +124,17 @@ not implemented
 0) Quit
 
 Choice:> [34m[01m3[0m
-not implemented
+Time: 1.0 min
+--------Start     
+    Traveling Left: 
+    Traveling Right: [ ID:4   0.1 ]
+--------Station A 
+    Traveling Left: 
+    Traveling Right: 
+--------Station B 
+    Traveling Left: 
+    Traveling Right: 
+--------End       
 
 1) Show Gondola System
 2) Add Car
@@ -120,7 +144,30 @@ not implemented
 0) Quit
 
 Choice:> [34m[01m5[0m
-not implemented
+--------Start     
+    People getting on/off: 0/4
+    Delayed on...
+      Left Side: 
+      Right Side: 
+
+--------Station A 
+    People getting on/off: 5/3
+    Delayed on...
+      Left Side: 
+      Right Side: 
+
+--------Station B 
+    People getting on/off: 7/2
+    Delayed on...
+      Left Side: 
+      Right Side: 
+
+--------End       
+    People getting on/off: 20/8
+    Delayed on...
+      Left Side: 
+      Right Side: 
+
 
 1) Show Gondola System
 2) Add Car
@@ -130,7 +177,17 @@ not implemented
 0) Quit
 
 Choice:> [34m[01m3[0m
-not implemented
+Time: 1.5 min
+--------Start     
+    Traveling Left: 
+    Traveling Right: [ ID:4   0.2 ]
+--------Station A 
+    Traveling Left: 
+    Traveling Right: 
+--------Station B 
+    Traveling Left: 
+    Traveling Right: 
+--------End       
 
 1) Show Gondola System
 2) Add Car
@@ -140,7 +197,17 @@ not implemented
 0) Quit
 
 Choice:> [34m[01m3[0m
-not implemented
+Time: 2.0 min
+--------Start     
+    Traveling Left: 
+    Traveling Right: 
+--------Station A Right: [ ID:4   1.0min 5/20 ](0)
+    Traveling Left: 
+    Traveling Right: 
+--------Station B 
+    Traveling Left: 
+    Traveling Right: 
+--------End       
 
 1) Show Gondola System
 2) Add Car
@@ -150,7 +217,30 @@ not implemented
 0) Quit
 
 Choice:> [34m[01m5[0m
-not implemented
+--------Start     
+    People getting on/off: 0/4
+    Delayed on...
+      Left Side: 
+      Right Side: 
+
+--------Station A Right: [ ID:4   1.0min 5/20 ](0)
+    People getting on/off: 5/3
+    Delayed on...
+      Left Side: 
+      Right Side: 
+
+--------Station B 
+    People getting on/off: 7/2
+    Delayed on...
+      Left Side: 
+      Right Side: 
+
+--------End       
+    People getting on/off: 20/8
+    Delayed on...
+      Left Side: 
+      Right Side: 
+
 
 1) Show Gondola System
 2) Add Car
@@ -160,7 +250,17 @@ not implemented
 0) Quit
 
 Choice:> [34m[01m3[0m
-not implemented
+Time: 2.5 min
+--------Start     
+    Traveling Left: 
+    Traveling Right: 
+--------Station A Right: [ ID:4   0.5min 5/20 ](0)
+    Traveling Left: 
+    Traveling Right: 
+--------Station B 
+    Traveling Left: 
+    Traveling Right: 
+--------End       
 
 1) Show Gondola System
 2) Add Car
@@ -170,7 +270,17 @@ not implemented
 0) Quit
 
 Choice:> [34m[01m3[0m
-not implemented
+Time: 3.0 min
+--------Start     
+    Traveling Left: 
+    Traveling Right: 
+--------Station A 
+    Traveling Left: 
+    Traveling Right: [ ID:4   0.1 ]
+--------Station B 
+    Traveling Left: 
+    Traveling Right: 
+--------End       
 
 1) Show Gondola System
 2) Add Car
@@ -180,7 +290,17 @@ not implemented
 0) Quit
 
 Choice:> [34m[01m3[0m
-not implemented
+Time: 3.5 min
+--------Start     
+    Traveling Left: 
+    Traveling Right: 
+--------Station A 
+    Traveling Left: 
+    Traveling Right: [ ID:4   0.2 ]
+--------Station B 
+    Traveling Left: 
+    Traveling Right: 
+--------End       
 
 1) Show Gondola System
 2) Add Car
@@ -190,7 +310,17 @@ not implemented
 0) Quit
 
 Choice:> [34m[01m3[0m
-not implemented
+Time: 4.0 min
+--------Start     
+    Traveling Left: 
+    Traveling Right: 
+--------Station A 
+    Traveling Left: 
+    Traveling Right: 
+--------Station B Right: [ ID:4   1.0min 10/20 ](0)
+    Traveling Left: 
+    Traveling Right: 
+--------End       
 
 1) Show Gondola System
 2) Add Car
@@ -200,7 +330,30 @@ not implemented
 0) Quit
 
 Choice:> [34m[01m5[0m
-not implemented
+--------Start     
+    People getting on/off: 0/4
+    Delayed on...
+      Left Side: 
+      Right Side: 
+
+--------Station A 
+    People getting on/off: 5/3
+    Delayed on...
+      Left Side: 
+      Right Side: 
+
+--------Station B Right: [ ID:4   1.0min 10/20 ](0)
+    People getting on/off: 7/2
+    Delayed on...
+      Left Side: 
+      Right Side: 
+
+--------End       
+    People getting on/off: 20/8
+    Delayed on...
+      Left Side: 
+      Right Side: 
+
 
 1) Show Gondola System
 2) Add Car
@@ -210,7 +363,17 @@ not implemented
 0) Quit
 
 Choice:> [34m[01m3[0m
-not implemented
+Time: 4.5 min
+--------Start     
+    Traveling Left: 
+    Traveling Right: 
+--------Station A 
+    Traveling Left: 
+    Traveling Right: 
+--------Station B Right: [ ID:4   0.5min 10/20 ](0)
+    Traveling Left: 
+    Traveling Right: 
+--------End       
 
 1) Show Gondola System
 2) Add Car
@@ -220,7 +383,17 @@ not implemented
 0) Quit
 
 Choice:> [34m[01m3[0m
-not implemented
+Time: 5.0 min
+--------Start     
+    Traveling Left: 
+    Traveling Right: 
+--------Station A 
+    Traveling Left: 
+    Traveling Right: 
+--------Station B 
+    Traveling Left: 
+    Traveling Right: [ ID:4   0.1 ]
+--------End       
 
 1) Show Gondola System
 2) Add Car
@@ -230,7 +403,17 @@ not implemented
 0) Quit
 
 Choice:> [34m[01m3[0m
-not implemented
+Time: 5.5 min
+--------Start     
+    Traveling Left: 
+    Traveling Right: 
+--------Station A 
+    Traveling Left: 
+    Traveling Right: 
+--------Station B 
+    Traveling Left: 
+    Traveling Right: [ ID:4   0.2 ]
+--------End       
 
 1) Show Gondola System
 2) Add Car
@@ -240,7 +423,17 @@ not implemented
 0) Quit
 
 Choice:> [34m[01m3[0m
-not implemented
+Time: 6.0 min
+--------Start     
+    Traveling Left: 
+    Traveling Right: 
+--------Station A 
+    Traveling Left: 
+    Traveling Right: 
+--------Station B 
+    Traveling Left: 
+    Traveling Right: 
+--------End       Right: [ ID:4   2.0min 20/20 ](0)
 
 1) Show Gondola System
 2) Add Car
@@ -250,7 +443,17 @@ not implemented
 0) Quit
 
 Choice:> [34m[01m3[0m
-not implemented
+Time: 6.5 min
+--------Start     
+    Traveling Left: 
+    Traveling Right: 
+--------Station A 
+    Traveling Left: 
+    Traveling Right: 
+--------Station B 
+    Traveling Left: 
+    Traveling Right: 
+--------End       Right: [ ID:4   1.5min 20/20 ](0)
 
 1) Show Gondola System
 2) Add Car
@@ -260,7 +463,17 @@ not implemented
 0) Quit
 
 Choice:> [34m[01m3[0m
-not implemented
+Time: 7.0 min
+--------Start     
+    Traveling Left: 
+    Traveling Right: 
+--------Station A 
+    Traveling Left: 
+    Traveling Right: 
+--------Station B 
+    Traveling Left: 
+    Traveling Right: 
+--------End       Right: [ ID:4   1.0min 20/20 ](0)
 
 1) Show Gondola System
 2) Add Car
@@ -270,7 +483,30 @@ not implemented
 0) Quit
 
 Choice:> [34m[01m5[0m
-not implemented
+--------Start     
+    People getting on/off: 0/4
+    Delayed on...
+      Left Side: 
+      Right Side: 
+
+--------Station A 
+    People getting on/off: 5/3
+    Delayed on...
+      Left Side: 
+      Right Side: 
+
+--------Station B 
+    People getting on/off: 7/2
+    Delayed on...
+      Left Side: 
+      Right Side: 
+
+--------End       Right: [ ID:4   1.0min 20/20 ](0)
+    People getting on/off: 20/8
+    Delayed on...
+      Left Side: 
+      Right Side: 
+
 
 1) Show Gondola System
 2) Add Car

@@ -26,3 +26,11 @@ class Car:
         self.loc += 0.1
         return self.loc
 
+    def updatePeople(self, people):
+        if self.people + people < 0:
+            self.people = 0
+        elif self.people + people > 20:
+            self.people = 20
+        else:
+            self.people += people
+        return

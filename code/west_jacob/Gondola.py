@@ -80,15 +80,31 @@ class Gondola:
 
     def setStationPeople(self):
         try:
-            print("Start")
-            startOn = int(input("    Getting on:> "))
-            if startOn > 20 or startOn < 0:
-                raise ValueError
-            startOff = int(input("    Getting off:> "))
-            if startOff > 20 or startOff < 0:
-                raise ValueError
+            for station in self.getStationIterator():
+                print(station.name)
+                on = int(input("    Getting on:> "))
+                if on > 20 or on < 0:
+                    raise ValueError
+                off = int(input("    Getting off:> "))
+                if off > 20 or off < 0:
+                    raise ValueError
+                station.gettingOn = on
+                station.gettingOff = off
         except ValueError:
             print("Invalid Input")
+
+    def printStationDetails(self):
+        stationIter = self.getStationIterator()
+
+        for station in stationIter:
+            print(station)
+            print("    People getting on/off: {}/{}".format(station.gettingOn, station.gettingOff))
+            print("    Delayed on...")
+            print("      Left Side: ")
+            print("      Right Side: ")
+            print("")
+
+        return
 
     def update(self):
         self.time += 0.5

@@ -6,6 +6,8 @@ class Station(Thing):
         Thing.__init__(self)
         self.name = name
         self.people = 0
+        self.gettingOn = 0;
+        self.gettingOff = 0
         self.leftCar = None
         self.leftWaiting = []
         self.rightCar = None
@@ -46,6 +48,8 @@ class Station(Thing):
         if self.rightCar is None:
             self.rightCar = car
             self.rightCar.Wait()
+            self.rightCar.updatePeople(-self.gettingOff)
+            self.rightCar.updatePeople(self.gettingOn)
         else:
             self.rightWaiting.append(car)
         return
